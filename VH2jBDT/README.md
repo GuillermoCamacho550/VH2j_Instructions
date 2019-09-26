@@ -39,3 +39,5 @@ The purpose of this BDT is to reduce the Top background. The instructions to use
     root -l -b -q VH2j_TMVAMultiClass.C+
 
     root -l VH2j_TMVAMultiClassGui.C
+
+Only seems to work after reducing the number of Top samples (5-10 files)
