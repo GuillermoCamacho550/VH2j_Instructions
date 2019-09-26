@@ -1,7 +1,7 @@
 
-Connect to lxplus
+# Connect to lxplus
 ssh -Y lxplus.cern.ch -o ServerAliveInterval=240
-#If you're using Putty (Windows)
+# If you're using Putty (Windows)
 Host name: [YourUsername]@lxplus.cern.ch
 
 Set the Bash shell
