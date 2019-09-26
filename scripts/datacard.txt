@@ -1,0 +1,18 @@
+## Shape input card
+imax 1 number of channels
+jmax * number of background
+kmax * number of nuisance parameters
+----------------------------------------------------------------------------------------------------
+bin         VH_2j_emu
+observation 321
+shapes  *           * shapes/histos_VH_2j_emu.root     histo_$PROCESS histo_$PROCESS_$SYSTEMATIC
+shapes  data_obs           * shapes/histos_VH_2j_emu.root     histo_Data
+bin                                                                             VH_2j_emu                     VH_2j_emu                     VH_2j_emu                     VH_2j_emu                     VH_2j_emu                     VH_2j_emu                     VH_2j_emu                     VH_2j_emu                     VH_2j_emu                     VH_2j_emu                     VH_2j_emu                     VH_2j_emu                     VH_2j_emu                     VH_2j_emu                     VH_2j_emu                     VH_2j_emu                     
+process                                                                         qqH_hww                       ggZH_hww                      H_htt                         WH_hww                        ggH_hww                       ttH_hww                       ZH_hww                        ggWW                          Vg                            VVV                           top                           WW                            Fake                          DY                            WZgS                          VZ                            
+process                                                                         0                             -1                            -2                            -3                            -4                            -5                            -6                            1                             2                             3                             4                             5                             6                             7                             8                             9                             
+rate                                                                            0.8014                        0.3449                        0.5910                        3.3441                        6.7415                        0.1234                        1.3331                        1.3349                        21.7854                       1.1220                        146.3690                      45.4877                       68.9096                       -10.1306                      1.1871                        1.1380                        
+----------------------------------------------------------------------------------------------------
+lumi_13TeV                                                  lnN                 1.023                         1.023                         1.023                         1.023                         1.023                         1.023                         1.023                         1.023                         1.023                         1.023                         -                             1.023                         -                             1.023                         1.023                         1.023                         
+* autoMCStats 10  1
+----------------------------------------------------------------------------------------------------
+
