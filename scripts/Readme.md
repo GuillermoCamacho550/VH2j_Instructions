@@ -31,7 +31,7 @@ emacs -nw plot.py  # Remove or comment all the "groupPlot" lines
 python multiSignalStrengthPlot.py Full2016.txt --plotFile=plot.py #run the test
 
 -> Run a test with some VH2j results:
-Get the datacards and plot File from 
+Get the datacards and plot File from https://github.com/GuillermoCamacho550/VH2j_Instructions/tree/master/scripts 
 python multiSignalStrengthPlot.py datacard_1.txt --plotFile=plot_VH2j_noGroup.py
 
 -> Create your own datacards:
