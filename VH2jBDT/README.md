@@ -31,6 +31,8 @@ To read the output of the BDT the macro `VH2j_TMVAReader.C` has to be modified, 
 To cut on the output of a BDT, the variable has to be added in `variables.py` and the following line has to be added to the `cuts.py`file:
     'TMVAReader_VH2j(Entry$)>0.1166',
     
+# Top BDT
+The purpose of this BDT is to reduce the Top background. The instructions to use it are the same as the VH BDT.
 
 # VH2j MultiClass
 
